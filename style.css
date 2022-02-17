@@ -10,25 +10,38 @@ html {
 }
 
 .header {
-    background-image: linear-gradient(to left, #a2f4ff 20% , #ffaff2 90%);
-    height: 26vh;
-    width: 100%;
+    background-image: linear-gradient(to left, #a2f4ff 50% , #ffaff2 80%);
+    height: 20vh;
+    width: 100vw;
+    
  
 }
 
-.mainLogo {
-    width: 20rem;
-    margin-left: 40vw;
-    position: absolute;
-    top: 5rem;
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
+.logo {
+    top: 110;
+    position: absolute;
+}
+.mainLogo {
+    width: 240px;
+    
+    }
+
+.intro {
+    
+    
+    
 }
 
 .introduce {
-    font-size: 4rem;
-    margin-top: 8rem;
-    margin-left: 10vw;
+    font-size: 3rem;
     text-align: left;
     font-family: 'Comfortaa', 'Courier New', Courier, monospace;
+    margin-top: 5rem;
     
 }
