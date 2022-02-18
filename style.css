@@ -10,9 +10,11 @@ html {
 }
 
 .header {
-    background-image: linear-gradient(to left, #a2f4ff 50% , #ffaff2 80%);
+    background-image: linear-gradient(to left, #30dcf3 50% , #ff5be4 80%);
     height: 20vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
     
  
 }
@@ -24,11 +26,12 @@ body {
 }
 
 .logo {
-    top: 110;
-    position: absolute;
+    top: 17px;
+    left: 24vw;
+    
 }
 .mainLogo {
-    width: 240px;
+    width: 25rem;
     
     }
 
@@ -39,9 +42,10 @@ body {
 }
 
 .introduce {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     font-family: 'Comfortaa', 'Courier New', Courier, monospace;
-    margin-top: 5rem;
+    margin-top: 5.8rem;
+    margin-left: 3rem;
     
 }
