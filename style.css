@@ -1,3 +1,7 @@
+:root {
+    --primary-font: 'PT Sans Narrow', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +16,7 @@ html {
 .header {
     background-image: linear-gradient(to left, #30dcf3 50% , #ff5be4 80%);
     height: 20vh;
-    width: 100vw;
+    
     display: flex;
     justify-content: center;
     
@@ -23,13 +27,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
-
-.logo {
-    top: 17px;
-    left: 24vw;
     
 }
+
+main {
+   
+    max-width: 90rem;
+}
+
+
 .mainLogo {
     width: 25rem;
     
@@ -42,10 +48,18 @@ body {
 }
 
 .introduce {
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: left;
-    font-family: 'Comfortaa', 'Courier New', Courier, monospace;
+    font-family: var(--primary-font);
     margin-top: 5.8rem;
     margin-left: 3rem;
     
+}
+
+.introduce-2 {
+    font-size: 2rem;
+    text-align: end;
+    margin: 3rem;
+    font-family: var(--primary-font);
+
 }
