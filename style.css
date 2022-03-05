@@ -14,7 +14,7 @@ html {
 }
 
 .header {
-    background-image: linear-gradient(to left, #30dcf3 50% , #ff5be4 80%);
+    background-image: linear-gradient(to left, #2adcf3 50% , #a82693 80%);
     height: 20vh;
     
     display: flex;
@@ -28,10 +28,11 @@ body {
     flex-direction: column;
     height: 100vh;
     
+    
 }
 
 main {
-   
+    
     max-width: 90rem;
 }
 
@@ -41,11 +42,7 @@ main {
     
     }
 
-.intro {
-    
-    
-    
-}
+
 
 .introduce {
     font-size: 4rem;
