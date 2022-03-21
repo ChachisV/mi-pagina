@@ -18,7 +18,7 @@ html {
     height: 15rem;
     
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     
  
 }
@@ -37,11 +37,7 @@ main {
     
     }
 
-.intro {
-    
-    
-    
-}
+
 
 .introduce {
     font-size: 4rem;
@@ -54,9 +50,9 @@ main {
 }
 
 .introduce-2 {
-    font-size: 3.5rem;
-    text-align: end;
-    margin: 3rem;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 3rem;
     font-family: var(--primary-font);
     color: #96099b;
     
